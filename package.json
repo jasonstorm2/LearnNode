@@ -1,0 +1,19 @@
+{
+  "name": "inittest",
+  "version": "1.0.0",
+  "description": "this is a test of init npm",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "local"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "js": "^0.1.0",
+    "async": "2.1.5"
+  }
+}
