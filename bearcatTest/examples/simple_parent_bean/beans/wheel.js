@@ -1,4 +1,5 @@
 var Wheel = function() {}
+var fs = require('fs');
 
 Wheel.prototype.init = function() {
 	console.log('init wheel...');

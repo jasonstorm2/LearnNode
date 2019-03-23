@@ -1,4 +1,17 @@
 {
 	"name": "simple_abstract_parent",
-	"scan": "beans"
+	"scan": "beans"	,
+	"beans":[{
+		"id": "car",
+		"func": "./beans/car",
+		"scope2": "prototype",
+		"props": [{
+			"name": "$engine",
+			"ref": "engine"
+		}, {
+			"name": "$wheel",
+			"ref": "wheel"
+		}]
+	}]
+
 }

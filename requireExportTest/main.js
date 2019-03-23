@@ -15,6 +15,12 @@ run.sleep();
 console.log(run.count());
 console.log(run2.count());
 
+/**测试module.exports方法 */
+console.log("------------测试module.exports方法-----------");
 
+var req = require('./export');//所有导出的东西都放入req
+req.afun(10);       //获得导出的方法
+console.log(req.arg1);//获得导出的变量
+console.log(req.arg2);
 
-
+var value = new req.ss(55); //获得导出的构造函数

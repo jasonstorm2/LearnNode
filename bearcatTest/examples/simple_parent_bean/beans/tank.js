@@ -2,6 +2,8 @@ var Tank = function(engine, wheel, num) {
 	this.engine = engine;
 	this.wheel = wheel;
 	this.num = num;
+	
+	
 }
 
 Tank.prototype.run = function() {
